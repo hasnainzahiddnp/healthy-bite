@@ -2,7 +2,7 @@
 node_modules/
 
 # JSON Server database (optional — keep if you want sample data in repo)
-./db.json
+db.json
 
 # Logs
 *.log
