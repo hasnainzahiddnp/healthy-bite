@@ -1,6 +1,6 @@
 # Web Technologies Capstone Project: Healthy Bite
-**Student Name:** <M HASNAIN>
-**Roll Number:** <F24BDOCS1M01059>
+**Student Name:** Muhammad HASNAIN
+**Roll Number:** F24BDOCS1M01059
 
 ## Project Description
 Healthy Bite is a web application designed to help users calculate and track their meal plan goals. It features a User Panel for submitting profile metrics and an Admin Panel for tracking community statistics and managing profiles. 
