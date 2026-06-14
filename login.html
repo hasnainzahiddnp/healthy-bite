@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Bite - Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h2>Healthy Bite</h2>
+    <a href="index.html">Create Profile</a>
+    <a href="plan.html">Meal Plans</a>
+    <a href="login.html">Login</a>
+    <a href="signup.html">Sign Up</a>
+</nav>
+
+<main>
+    <section>
+        <h3>Login to Your Account</h3>
+        <form id="loginForm" novalidate>
+            <div class="form-group">
+                <label for="loginEmail">Email</label>
+                <input type="email" id="loginEmail" required>
+                <span class="error-msg" id="loginEmailError">Email is required.</span>
+            </div>
+            <div class="form-group">
+                <label for="loginPassword">Password</label>
+                <input type="password" id="loginPassword" required>
+                <span class="error-msg" id="loginPasswordError">Password is required.</span>
+            </div>
+            <button type="submit">Login</button>
+            <p>Don't have an account? <a href="signup.html">Sign up here</a></p>
+        </form>
+    </section>
+</main>
+
+<script src="auth.js"></script>
+</body>
+</html>
